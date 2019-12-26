@@ -1,0 +1,17 @@
+{
+  "name": "test_travis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zhaitianye/test_travis",
+  "author": "zhaitianye <1048972989@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader test/*.js"
+  },
+  "devDependencies": {
+    "espower-loader": "^1.2.2",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^6.2.2",
+    "power-assert": "^1.6.1"
+  }
+}
