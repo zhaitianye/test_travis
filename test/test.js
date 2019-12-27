@@ -1,5 +1,5 @@
 "use strict";
-var assert = require('assert');
+var assert = require("assert");
 
 // describe('Array', () => {
 
@@ -14,7 +14,6 @@ var assert = require('assert');
 //     });
 //   });
 // });
-
 
 // describe('various types', function(){
 //     function Person(name, age) {
@@ -38,11 +37,10 @@ var assert = require('assert');
 //     });
 // });
 
-
-describe('#indexOf()', function () {
-  it('测试', function () {
-      const x = "小明";
-      const y = "小花";
-      assert( x.length === y.length );
+describe("#indexOf()", function() {
+  it("测试", function() {
+    const x = "小明";
+    const y = "小花";
+    assert(x.length === y.length);
   });
 });
