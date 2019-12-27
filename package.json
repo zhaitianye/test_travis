@@ -5,14 +5,9 @@
   "repository": "https://github.com/zhaitianye/test_travis",
   "author": "zhaitianye <1048972989@qq.com>",
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
-  },
   "scripts": {
     "test": "mocha --require intelli-espower-loader test/*.js",
-    "pretty-quick": "pretty-quick"
+    "pretty-quick": "pretty-quick src/*.js"
   },
   "devDependencies": {
     "espower-loader": "^1.2.2",
